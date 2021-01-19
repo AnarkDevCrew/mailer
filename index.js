@@ -13,4 +13,4 @@ const mailOptions = {
     html: '<h1>Html of email</h1>'
 }
 
-Mailer.sendMail(transportOptions,mailOptions)
+Mailer.sendMail(transportOptions,mailOptions).catch(console.error)
